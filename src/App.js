@@ -134,7 +134,7 @@ function Card({ From, To }) {
           />
         </fieldset>
         <div className="from">{from}</div>
-        <div style={{ cursor: "pointer" }} onClick={swipe}>
+        <div className="swipe" style={{ cursor: "pointer" }} onClick={swipe}>
           <BsArrowLeftRight />
         </div>
         <div className="to">{to}</div>
